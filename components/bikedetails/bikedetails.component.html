@@ -1,0 +1,11 @@
+<div *ngIf="bike">
+    <h2>{{bike.num}} Details</h2>
+    <div>{{bike.address}}</div>
+
+    <div>
+        <label for="num">Station Number:</label>
+        <input type="text" [(ngModel)]="bike.num" placeholder="number">
+
+    </div>
+
+</div>
